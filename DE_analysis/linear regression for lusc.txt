@@ -1,0 +1,98 @@
+
+Call:
+lm(formula = top5_degs[i, ] ~ cnv_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-212.85  -87.81  -29.90   81.91  324.94 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   158.69      52.10   3.046   0.0111 *
+cnv_data       88.14      62.40   1.413   0.1855  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 156 on 11 degrees of freedom
+Multiple R-squared:  0.1535,	Adjusted R-squared:  0.07659 
+F-statistic: 1.995 on 1 and 11 DF,  p-value: 0.1855
+
+
+Call:
+lm(formula = top5_degs[i, ] ~ cnv_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-202.48  -95.78   18.70   52.05  188.06 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   275.82      49.93   5.525 0.000179 ***
+cnv_data      -19.88      24.96  -0.796 0.442635    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 124.9 on 11 degrees of freedom
+Multiple R-squared:  0.05452,	Adjusted R-squared:  -0.03143 
+F-statistic: 0.6343 on 1 and 11 DF,  p-value: 0.4426
+
+
+Call:
+lm(formula = top5_degs[i, ] ~ cnv_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-92.929 -42.133  -3.818  29.781 155.640 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           145.73      30.57   4.768  0.00076 ***
+cnv_dataCNV_18q11.2   -16.74      23.63  -0.708  0.49483    
+cnv_dataCNV_3q26.33   -10.93      16.58  -0.659  0.52455    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 76.4 on 10 degrees of freedom
+Multiple R-squared:  0.1329,	Adjusted R-squared:  -0.04051 
+F-statistic: 0.7664 on 2 and 10 DF,  p-value: 0.4901
+
+
+Call:
+lm(formula = top5_degs[i, ] ~ cnv_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-202.541  -71.646  -31.443    2.069  302.526 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)    67.36      44.83   1.502    0.161
+cnv_data       87.74      53.69   1.634    0.131
+
+Residual standard error: 134.2 on 11 degrees of freedom
+Multiple R-squared:  0.1953,	Adjusted R-squared:  0.1222 
+F-statistic:  2.67 on 1 and 11 DF,  p-value: 0.1305
+
+
+Call:
+lm(formula = top5_degs[i, ] ~ cnv_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-145.76  -51.23    4.71   67.76  118.88 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            758.07      46.60  16.269 8.07e-07 ***
+cnv_dataCNV_18q11.2    -76.32      31.46  -2.426  0.04569 *  
+cnv_dataCNV_5q         540.10     111.97   4.824  0.00191 ** 
+cnv_dataCNV_5p12        26.91     152.24   0.177  0.86472    
+cnv_dataCNV_12p13.33  -184.43      65.80  -2.803  0.02641 *  
+cnv_dataCNV_5p15.33    305.54     213.17   1.433  0.19488    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 106.1 on 7 degrees of freedom
+Multiple R-squared:  0.9605,	Adjusted R-squared:  0.9323 
+F-statistic: 34.05 on 5 and 7 DF,  p-value: 9.068e-05
+

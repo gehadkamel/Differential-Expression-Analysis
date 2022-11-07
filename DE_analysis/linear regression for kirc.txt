@@ -1,0 +1,98 @@
+
+Call:
+lm(formula = top5_degs_Kirc_sample[i, ] ~ cnv_kirc_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-320.26 -132.43  -25.74  131.53  354.26 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     728.64      26.06  27.957   <2e-16 ***
+cnv_kirc_data  -136.33      78.05  -1.747   0.0861 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 168.1 on 57 degrees of freedom
+Multiple R-squared:  0.0508,	Adjusted R-squared:  0.03415 
+F-statistic: 3.051 on 1 and 57 DF,  p-value: 0.08609
+
+
+Call:
+lm(formula = top5_degs_Kirc_sample[i, ] ~ cnv_kirc_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.1609 -2.3784 -1.5021  0.6895 13.8991 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     4.5309     0.7184   6.307 4.49e-08 ***
+cnv_kirc_data   2.9868     2.0313   1.470    0.147    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.033 on 57 degrees of freedom
+Multiple R-squared:  0.03655,	Adjusted R-squared:  0.01964 
+F-statistic: 2.162 on 1 and 57 DF,  p-value: 0.1469
+
+
+Call:
+lm(formula = top5_degs_Kirc_sample[i, ] ~ cnv_kirc_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1688.35  -553.23   -32.96   498.91  2170.38 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     1923.8      114.1   16.86   <2e-16 ***
+cnv_kirc_data    740.7      316.6    2.34   0.0228 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 782.4 on 57 degrees of freedom
+Multiple R-squared:  0.08762,	Adjusted R-squared:  0.07161 
+F-statistic: 5.474 on 1 and 57 DF,  p-value: 0.02283
+
+
+Call:
+lm(formula = top5_degs_Kirc_sample[i, ] ~ cnv_kirc_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-403.19 -162.67  -21.95  168.98  586.41 
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                985.04      49.75  19.799   <2e-16 ***
+cnv_kirc_dataCNV_16p      -396.50     211.54  -1.874   0.0663 .  
+cnv_kirc_dataCNV_8q24.22   211.32     118.14   1.789   0.0793 .  
+cnv_kirc_dataCNV_5q35.1   -123.24     113.91  -1.082   0.2841    
+cnv_kirc_dataCNV_1p31.1    375.15     186.95   2.007   0.0498 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 247.5 on 54 degrees of freedom
+Multiple R-squared:  0.2629,	Adjusted R-squared:  0.2083 
+F-statistic: 4.815 on 4 and 54 DF,  p-value: 0.002145
+
+
+Call:
+lm(formula = top5_degs_Kirc_sample[i, ] ~ cnv_kirc_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-37.957 -15.373 -11.683   9.742 105.647 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     15.790      5.004   3.156  0.00256 **
+cnv_kirc_data  -40.501     15.777  -2.567  0.01291 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 31.68 on 57 degrees of freedom
+Multiple R-squared:  0.1036,	Adjusted R-squared:  0.0879 
+F-statistic:  6.59 on 1 and 57 DF,  p-value: 0.01291
+
